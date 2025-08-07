@@ -2,7 +2,7 @@
 
 ### **By *nicray*** | Cheato | Derf
 
-
+##### If you don't have a hard drive to install your homebrew apps, you can use this script with Aurora or other dashboards.
 
 
 ##### If you have two USB drives plugged into the console, only USB0 will be recognized. If you want to use your second USB drive (USB1), you must download the second version of the script.
