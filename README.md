@@ -1,8 +1,6 @@
-[readme.md](https://github.com/user-attachments/files/21673775/readme.md)
 # **Homebrew Store On USB**
 
 ### **By *nicray*** | Cheato | Derf
-
 
 
 
