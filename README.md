@@ -6,8 +6,6 @@
 
 
 ###### Credit:
-
 ###### Website of the creators: [**https://consolemods.org/wiki/User:Derf**](https://nicray.alexandrem.be/) **and Cheato**.
-
 ###### Website of the modders: [**https://nicray.alexandrem.be/**](https://nicray.alexandrem.be/)
 
