@@ -427,12 +427,11 @@ function HandleZipInstallUpdate(selection, path, type, checkExists)
 			end
 		end
 	end
-  -- ############################################################################ Fix bug ############################################################################ --
+
 	Script.SetStatus("Downloading Script...");
 	Script.SetProgress(0);
 	local dlpath = downloadsPath.."tmp.7z";
 	local http = Http.Get(selection.dataurl, dlpath);
-  -- ############################################################################ Fix bug ############################################################################ --
 	if http.Success then
 		Script.SetStatus("Extracting Script...");
 		Script.SetProgress(25);
