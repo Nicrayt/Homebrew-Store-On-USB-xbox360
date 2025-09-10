@@ -1,6 +1,6 @@
 local TopLevelMenu = {}
 TopLevelMenu.SubMenu = {}
-local TitleText = "Created by Derf and Cheato | modded by Nicray (Nicray-Tuto)";
+local TitleText = "Created by Derf and Cheato 0.2";
 local EmptyText = "No Menu Available";
 local ExitOnCancel = false;
 local GoBackText = "Go Back";
