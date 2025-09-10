@@ -8,4 +8,3 @@
 
 
 ##### This script is still in its early stage: Alpha 0.11.
-<img width="64" height="64" alt="icon" src="https://github.com/user-attachments/assets/ff6af22c-67e4-47e8-9c5c-e134a4106d37" />
