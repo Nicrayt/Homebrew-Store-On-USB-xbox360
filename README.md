@@ -1,4 +1,4 @@
-# <a href="https://github.com/Nicrayt/Homebrew-Store-On-USB-xbox360/"><img width="22" height="22" alt="HSUSBICO2" src="https://github.com/user-attachments/assets/51af0aa1-b898-464d-b3e3-18ac53e714f1"></a>      <a href="https://youtube.com/@Nicray-tuto"><img width="22" height="22" alt="YoutubeICO" src="https://github.com/user-attachments/assets/7130d04e-da1e-4822-855c-d62b01f07eda" ></a>      <a href="https://www.reddit.com/user/Cautious_Syllabub503/"><img width="22" height="22" alt="RedditICO" src="https://github.com/user-attachments/assets/012e2765-a838-4d2f-9f69-a887dda137ab" ></a> **Homebrew Store On USB**
+# <a href="https://github.com/Nicrayt/Homebrew-Store-On-USB-xbox360/"><img width="22" height="22" alt="HSUSBICO2" src="https://github.com/user-attachments/assets/ff6af22c-67e4-47e8-9c5c-e134a4106d37"></a>      <a href="https://youtube.com/@Nicray-tuto"><img width="22" height="22" alt="YoutubeICO" src="https://github.com/user-attachments/assets/7130d04e-da1e-4822-855c-d62b01f07eda" ></a>      <a href="https://www.reddit.com/user/Cautious_Syllabub503/"><img width="22" height="22" alt="RedditICO" src="https://github.com/user-attachments/assets/012e2765-a838-4d2f-9f69-a887dda137ab" ></a> **Homebrew Store On USB**
 
 
 ###### **By *nicray*** | Cheato | Derf
@@ -8,3 +8,4 @@
 
 
 ##### This script is still in its early stage: Alpha 0.11.
+<img width="64" height="64" alt="icon" src="https://github.com/user-attachments/assets/ff6af22c-67e4-47e8-9c5c-e134a4106d37" />
