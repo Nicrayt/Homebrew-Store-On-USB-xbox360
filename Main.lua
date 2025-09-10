@@ -1,6 +1,6 @@
 scriptTitle = "Homebrews Stores USB"
 scriptAuthor = "Derf / Cheato / and modded by Nicray (Nicray-Tuto)"
-scriptVersion = 0.1
+scriptVersion = 0.11
 scriptDescription = "Download homebrews from ConsoleMods.org and other repositories directly to your USB sticks! | Website of the modders: https://nicray.alexandrem.be/ | Website of the creators: https://consolemods.org/wiki/User:Derf and Cheato. | version: 2.0"
 scriptIcon = "icon.png"
 scriptPermissions = { "http", "sql", "filesystem" }
@@ -8,7 +8,7 @@ scriptPermissions = { "http", "sql", "filesystem" }
 require("MenuSystem");
 
 local reloadRequired = false;
-downloadsPath = "usb0\\Downloads";
+downloadsPath = "usb0\\temp";
 
 -- Main entry point to script
 function main()
@@ -236,19 +236,11 @@ function GetScanPath(type)
 end
 
 function GetDestinationPath(selection, type)
-	-- If ScanPaths not set in Aurora settings, then:
-	-- App       - Installs to /Apps/
-	-- Games     - Installs to /Games/
-	-- Emulator  - Installs to /Emulators/
-	-- Other     - Full path specified in .ini
-	-----------------------------------------------------
-	-- Official content - "usb0:\\Content\\0000000000000000\\";
 	
 	local applicationsDirectory = GetScanPath("App");
 	local homebrewDirectory = GetScanPath("Homebrew");
 	local emulatorsDirectory = GetScanPath("Emulator");
-  
--- ############################################################################ My modifications ############################################################################ --
+
 	if type == "App" then
 		if applicationsDirectory ~= nil then
 			return applicationsDirectory .. selection.path;
@@ -273,12 +265,11 @@ function GetDestinationPath(selection, type)
 		return selection.path;
 	end
 end
--- ############################################################################ My modifications ############################################################################ --
 
 function HandleInstallation(selection, destinationPath, type)
 	if string.match(selection.path, "Usb0:") then
 		if not FileSystem.FileExists("Usb0:\\") then
-			Script.ShowMessageBox("ERROR","This download requires a USB flash drive. Please plug one in and retry.","OK");
+			Script.ShowMessageBox("ERROR","Please retry.","OK");
 			return nil;
 		end
 	end
@@ -427,7 +418,6 @@ function HandleZipInstallUpdate(selection, path, type, checkExists)
 			end
 		end
 	end
-
 	Script.SetStatus("Downloading Script...");
 	Script.SetProgress(0);
 	local dlpath = downloadsPath.."tmp.7z";
