@@ -7,4 +7,6 @@
 ### I made this for people like me who don’t have a hard drive, so they can still benefit from this script. The name of this script is Homebrew Store On USB
 
 
-##### This script is still in its early stage: Alpha 0.11.
+##### This script is still in its early stage: Alpha 0.1.
+
+(Version 0.11 will be released on 09/15/2025.)
