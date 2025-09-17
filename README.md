@@ -9,4 +9,4 @@
 
 ##### This script is still in its early stage: Alpha 0.1.
 
-(Version 0.11 will be released on 09/15/2025.)
+Version 0.11 will be released on 09/17/2025. It includes an improved interface, and temporary files/folders are now functional. Currently in the testing phase (checking for potential bugs).
