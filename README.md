@@ -7,6 +7,4 @@
 ### I made this for people like me who don’t have a hard drive, so they can still benefit from this script. The name of this script is Homebrew Store On USB
 
 
-##### This script is still in its early stage: Alpha 0.1.
-
-Version 0.11 will be released on 09/17/2025. It includes an improved interface, and temporary files/folders are now functional. Currently in the testing phase (checking for potential bugs).
+##### This script is still in its early stage: Alpha 0.11.
