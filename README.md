@@ -1,19 +1,19 @@
-# <a href="https://github.com/Nicrayt/Homebrew-Store-On-USB-xbox360/"><img width="22" height="22" alt="GitHub Icon" src="https://github.com/user-attachments/assets/ff6af22c-67e4-47e8-9c5c-e134a4106d37"></a>  
-<a href="https://youtube.com/@Nicray-tuto"><img width="22" height="22" alt="YouTube Icon" src="https://github.com/user-attachments/assets/7130d04e-da1e-4822-855c-d62b01f07eda"></a>  
-<a href="https://www.reddit.com/user/Cautious_Syllabub503/"><img width="22" height="22" alt="Reddit Icon" src="https://github.com/user-attachments/assets/012e2765-a838-4d2f-9f69-a887dda137ab"></a>  
+<img width="48" height="48" alt="icon" src="https://github.com/user-attachments/assets/a9f157fd-a9b5-46f2-a8c0-85daa3f0ae47" />
 
-# **Homebrew Store on USB**  
+# **Homebrew Store on USB — Version 0.11 (Alpha)**  
 
-###### **By *Nicray*** | Cheato | Derf  
+### **By *Nicray*** | Cheato | Derf  
 
 ---
 
-### 📖 About  
-I modified an Aurora script called **Homebrew Store**. This version installs all applications directly onto a **USB drive** instead of requiring a hard drive.  
+#### 📌 Introduction  
+If you don’t have a hard drive to install your homebrew apps, you can use this script with **Aurora** or other dashboards.  
 
-I created it for people like me who don’t own a hard drive, so they can still enjoy using this script. That’s why I named it **Homebrew Store on USB**.  
+⚠️ **Important notes:**  
+- If two USB drives are plugged into the console, only **USB0** will be recognized.  
+- If you encounter issues during installation (e.g., Aurora crashing after installing an app), simply try again.  
+- In case of serious issues such as crashes or unintended file deletion, make sure **USB0** is properly recognized by the console.  
+- Files from the Dashboard and Other categories are not copied automatically to the USB drive.
+- This mod is still in its **early development stage (Alpha 0.11)**.  
 
 ---
-
-#### ⚠️ Development Status  
-This script is still in its **early development stage (Alpha 0.11)**.  
